@@ -1,0 +1,27 @@
+{
+  "name": "todo_backend",
+  "version": "1.0.0",
+  "description": "A backend services for a task app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwakulartey/todo_backend.git"
+  },
+  "author": "K.S.L",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kwakulartey/todo_backend/issues"
+  },
+  "homepage": "https://github.com/kwakulartey/todo_backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.1.0",
+    "nodemon": "^2.0.15"
+  }
+}
